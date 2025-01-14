@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: 1325px;
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    margin-left: -8%;
+  }
+  a {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+  }
+  .logo {
+    font-family: var(--font3);
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #fff;
+  }
+  #counter{
+    background-color: #E58411;
+    padding: 4px;
+    border-radius: 50%;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: var(--font-family);
+
+  }
+  .counter-bag{
+    position: relative;
+    cursor: pointer;
+
+  }
+}

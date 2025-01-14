@@ -1,0 +1,40 @@
+.hero {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 86.13%, #fff 100%),
+    url("../../assets/images/Group\ 48095438.svg");
+  min-height: 1084px;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  padding-top: 27px;
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+  h1{
+    font-family: var(--font3);
+font-weight: 400;
+font-size: 80px;
+line-height: 130%;
+letter-spacing: -0.01em;
+text-transform: capitalize;
+text-align: center;
+color: #fff;
+margin: 92px 0 14px;
+  }
+  h4{
+    
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    text-align: center;
+    color: #fff;
+    opacity: 0.8;
+    margin-bottom: 45px;
+  }
+}
