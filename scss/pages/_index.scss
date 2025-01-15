@@ -24,7 +24,7 @@
     text-transform: capitalize;
     text-align: center;
     color: #fff;
-    margin: 92px 0 14px;
+    margin: 152px 0 14px;
   }
   h4 {
     font-family: var(--second-family);
@@ -37,7 +37,6 @@
     margin-bottom: 45px;
   }
 }
-
 .second {
   display: flex;
   align-self: center;
@@ -86,5 +85,103 @@
     font-weight: 400;
     font-size: 42px;
     color: #1e1e1e;
+  }
+}
+.about {
+  a {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 185%;
+    color: #e58411;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 4px;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 240px 0;
+  gap: 240px;
+  flex-direction: column;
+
+  .line {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    padding: 0 calc((100vw - 1285px) / 2);
+    &:nth-child(2) {
+      justify-content: start;
+      margin-top: 240px;
+    }
+    .content {
+      width: 590px;
+      display: flex;
+      align-items: start;
+      justify-content: start;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  h5 {
+    font-family: var(--font5);
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #e58411;
+  }
+  h2 {
+    font-family: var(--font3);
+    font-weight: 400;
+    font-size: 42px;
+    text-transform: capitalize;
+    color: #1e1e1e;
+  }
+  p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 185%;
+    color: #1e1e1e;
+    opacity: 0.8;
+  }
+  .about-bg1 {
+    width: 728px;
+    height: 541px;
+    position: absolute;
+    left: 0;
+    top: -60px;
+    user-select: none;
+    z-index: -1;
+  }
+  .about-img1 {
+    width: 629px;
+    height: 445px;
+    position: absolute;
+    left: 0;
+    top: 0px;
+  }
+  .about-bg2 {
+    position: absolute;
+    right: 0;
+    top: -60px;
+  }
+  .about-img2 {
+    position: absolute;
+    right: 0;
+    top: 0px;
+  }
+  .db-img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: 467px;
+    top: -120px;
   }
 }

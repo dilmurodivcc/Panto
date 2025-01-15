@@ -89,17 +89,27 @@ function add() {
   counter.textContent = parseInt(counter.textContent) + 1;
 }
 
+const backToTopButton = document.getElementById("backToTop");
 
-const backToTopButton = document.getElementById('backToTop');
-
-window.addEventListener('scroll', () => {
+window.addEventListener("scroll", () => {
   if (window.scrollY > 100) {
-    backToTopButton.classList.add('show');
+    backToTopButton.classList.add("show");
   } else {
-    backToTopButton.classList.remove('show');
+    backToTopButton.classList.remove("show");
   }
 });
 
-backToTopButton.addEventListener('click', () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+backToTopButton.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+const testimonialCarousel = document.querySelector('.testimonial-carousel');
+const testimonialLeftArrow = document.querySelector('.testimonial-arrow.left');
+const testimonialRightArrow = document.querySelector('.testimonial-arrow.right');
+
+testimonialLeftArrow.addEventListener('click', () => {
+  testimonialCarousel.scrollBy({ left: -500, behavior: 'smooth' });
+});
+
+testimonialRightArrow.addEventListener('click', () => {
+  testimonialCarousel.scrollBy({ left: 500, behavior: 'smooth' });
 });
