@@ -12,6 +12,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 
 .container {
@@ -169,6 +170,15 @@ html {
 #backToTop.show {
   transform: translateY(0);
   opacity: 1;
+}
+
+a:hover {
+  color: #e58411;
+  text-shadow: none;
+}
+
+.plus-btn:hover > img {
+  transform: rotate(90deg);
 }
 
 header {
@@ -354,6 +364,9 @@ header.shrink {
   background-color: #fafafa;
   margin-top: 80px;
 }
+.carousel .card:hover > img {
+  transform: scale(1.1);
+}
 .carousel .card .card-info {
   display: flex;
   flex-direction: column;
@@ -412,6 +425,9 @@ header.shrink {
   gap: 36px;
   justify-content: space-between;
   flex-direction: column;
+}
+.grid .card:hover > img {
+  transform: scale(1.1);
 }
 .grid .card .card-info {
   display: flex;

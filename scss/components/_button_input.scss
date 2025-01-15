@@ -25,7 +25,6 @@
   p {
     transition: all 0.3 ease;
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-
   }
 }
 
@@ -54,7 +53,6 @@
   display: block;
   transition: all 0.3s ease;
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-
 }
 
 .dropdown-content a:hover {
@@ -104,7 +102,6 @@
   }
 }
 
-
 #backToTop {
   position: fixed;
   bottom: 20px;
@@ -130,4 +127,15 @@
 #backToTop.show {
   transform: translateY(0);
   opacity: 1;
+}
+a:hover {
+  color: #e58411;
+  text-shadow: none;
+
+}
+
+.plus-btn{
+  &:hover > img{
+    transform: rotate(90deg);
+  }
 }

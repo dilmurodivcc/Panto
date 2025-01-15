@@ -121,6 +121,9 @@
   background: transparent;
   background-color: #fafafa;
   margin-top: 80px;
+  &:hover > img{
+    transform: scale(1.1);
+  }
   .card-info {
     display: flex;
     flex-direction: column;
@@ -180,6 +183,10 @@
   gap: 36px;
   justify-content: space-between;
   flex-direction: column;
+    
+  &:hover > img{
+    transform: scale(1.1);
+  }
   .card-info {
     display: flex;
     flex-direction: column;
@@ -215,6 +222,7 @@
   width: 80%;
   border-radius: 5px;
   margin-top: -40px;
+
 }
 
 .view-all {
