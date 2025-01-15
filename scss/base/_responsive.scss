@@ -1,0 +1,260 @@
+@media screen and (max-width: 1350px) {
+  .container {
+    max-width: 1085px !important;
+    margin: 0 auto;
+  }
+  header {
+    width: 1125px !important;
+  }
+  .about .line {
+    padding: 0 calc((100vw - 1085px) / 2) !important;
+  }
+  .about-bg1 {
+    width: calc(728px - 15%) !important;
+    height: auto !important;
+    position: absolute;
+    left: 0;
+    top: -40px;
+    user-select: none;
+    z-index: -1;
+  }
+  .about-img1 {
+    width: calc(629px - 13%) !important;
+    height: auto !important;
+    position: absolute;
+    left: 0;
+    top: 0px;
+  }
+  .about-bg2 {
+    position: absolute;
+    right: 0;
+    width: calc(491px - 10%) !important;
+    top: -50px;
+  }
+  .about-img2 {
+    position: absolute;
+    width: calc(445px - 10%) !important;
+    right: 0;
+    top: 0px;
+  }
+  .db-img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: calc(467px - 12%) !important;
+    top: -140px !important;
+    img {
+      width: calc(276px - 20%) !important;
+    }
+  }
+  h2 {
+    font-size: 33px !important;
+  }
+  p {
+    font-size: 16px !important;
+  }
+  h5 {
+    font-size: 16px !important;
+  }
+  h1 {
+    font-size: 70px !important;
+  }
+  h4 {
+    font-size: 20px !important;
+  }
+  a {
+    font-size: 13px !important;
+  }
+  .carousel .card {
+    height: auto !important;
+  }
+  .grid.active {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  .about .line .content {
+    width: 45% !important;
+  }
+}
+
+@media screen and (max-width: 1224px) {
+  .container {
+    max-width: 90vw !important;
+    margin: 0 auto;
+  }
+  header {
+    width: 90vw !important;
+  }
+  h2 {
+    font-size: 28px !important;
+  }
+  p {
+    font-size: 14px !important;
+  }
+  h5 {
+    font-size: 14px !important;
+  }
+
+  h4 {
+    font-size: 17px !important;
+  }
+  a {
+    font-size: 12px !important;
+  }
+  .about .line {
+    padding: 0 calc((100vw - 90vw) / 2) !important;
+  }
+}
+
+@media screen and (max-width: 1111px) {
+  .grid.active {
+    grid-template-columns: repeat(3, 1fr) !important;
+    .card {
+      height: auto !important;
+      width: 250px !important;
+    }
+  }
+  .about {
+    .content.second {
+      margin-top: -100px !important;
+    }
+  }
+  .about-bg1 {
+    width: calc(728px - 20%) !important;
+    height: auto !important;
+    position: absolute;
+    left: 0;
+    top: -40px;
+    user-select: none;
+    z-index: -1;
+  }
+  .about-img1 {
+    width: calc(629px - 20%) !important;
+    height: auto !important;
+    position: absolute;
+    left: 0;
+    top: 0px;
+  }
+  .about-bg2 {
+    position: absolute;
+    right: 0;
+    width: calc(491px - 20%) !important;
+    top: -50px;
+  }
+  .about-img2 {
+    position: absolute;
+    width: calc(445px - 20%) !important;
+    right: 0;
+    top: 0px;
+  }
+  .db-img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: calc(467px - 25%) !important;
+    top: -160px !important;
+    img {
+      width: calc(276px - 30%) !important;
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .grid.active {
+    grid-template-columns: repeat(2, 1fr) !important;
+    .card {
+      height: auto !important;
+      width: 300px !important;
+    }
+  }
+  .about {
+    .content.second {
+      margin-top: -100px !important;
+    }
+    .about-bg1 {
+      width: calc(728px - 44%) !important;
+      height: auto !important;
+      position: absolute;
+      left: 0;
+      top: -30px !important;
+      user-select: none;
+      z-index: -1;
+    }
+    .about-img1 {
+      width: calc(629px - 38%) !important;
+      height: auto !important;
+      position: absolute;
+      left: 0;
+      top: 0px;
+    }
+    .about-bg2 {
+      position: absolute;
+      right: 0;
+      width: calc(491px - 33%) !important;
+      top: -30px !important;
+    }
+    .about-img2 {
+      position: absolute;
+      width: calc(445px - 28%) !important;
+      right: 0;
+      top: 0px;
+    }
+    .db-img {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      position: absolute;
+      right: calc(467px - 38.5%) !important;
+      top: -85px !important;
+      img {
+        width: calc(276px - 46%) !important;
+      }
+    }
+  }
+  h2 {
+    font-size: 22px !important;
+  }
+  p {
+    font-size: 12px !important;
+  }
+  h5 {
+    font-size: 12px !important;
+  }
+  h1 {
+    font-size: 50px !important;
+  }
+  h4 {
+    font-size: 18px !important;
+  }
+  a {
+    font-size: 12px !important;
+  }
+  h3 {
+    font-size: 16px !important;
+  }
+  small {
+    font-size: 14px !important;
+  }
+  .stars {
+    width: 60px !important;
+  }
+  .carousel .card {
+    flex: 0 0 calc(50% - 34px) !important;
+    .card-info {
+      height: 180px !important;
+    }
+  }
+  .arrow.right {
+    right: 0px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid.active {
+    .card {
+      height: auto !important;
+      width: 250px !important;
+    }
+  }
+}
