@@ -230,6 +230,7 @@
   a {
     font-size: 12px !important;
   }
+
   h3 {
     font-size: 16px !important;
   }
@@ -256,5 +257,36 @@
       height: auto !important;
       width: 250px !important;
     }
+  }
+  .second .container {
+    padding-left: 30px;
+    flex-wrap: wrap;
+    gap: 40px;
+    h2 {
+      font-size: 30px !important;
+    }
+    .cards {
+      flex-wrap: wrap;
+      width: 100% !important;
+    }
+  }
+  .input-div {
+    width: 70% !important;
+    ::placeholder {
+      font-size: 14px !important;
+    }
+  }
+  .db-img {
+    display: none !important;
+  }
+  .about .content.second {
+    margin-top: 0px !important;
+  }
+  .about .line {
+    flex-direction: column;
+  }
+  .emty{
+    width: 50% !important;
+    height: 300px !important;
   }
 }

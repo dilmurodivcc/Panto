@@ -63,19 +63,14 @@ viewAllBtn.addEventListener("click", () => {
     rightArrow.style.display = "none";
   }
 });
-
 leftArrow.addEventListener("click", () => {
   carousel.scrollBy({ left: -330, behavior: "smooth" });
 });
-
 rightArrow.addEventListener("click", () => {
   carousel.scrollBy({ left: 330, behavior: "smooth" });
 });
-
 updateView("chair");
-
 const header = document.getElementById("header");
-
 window.addEventListener("scroll", () => {
   if (window.scrollY > 0) {
     header.classList.add("shrink");
@@ -102,14 +97,16 @@ window.addEventListener("scroll", () => {
 backToTopButton.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
-const testimonialCarousel = document.querySelector('.testimonial-carousel');
-const testimonialLeftArrow = document.querySelector('.testimonial-arrow.left');
-const testimonialRightArrow = document.querySelector('.testimonial-arrow.right');
+const testimonialCarousel = document.querySelector(".testimonial-carousel");
+const testimonialLeftArrow = document.querySelector(".testimonial-arrow.left");
+const testimonialRightArrow = document.querySelector(
+  ".testimonial-arrow.right"
+);
 
-testimonialLeftArrow.addEventListener('click', () => {
-  testimonialCarousel.scrollBy({ left: -500, behavior: 'smooth' });
+testimonialLeftArrow.addEventListener("click", () => {
+  testimonialCarousel.scrollBy({ left: -500, behavior: "smooth" });
 });
 
-testimonialRightArrow.addEventListener('click', () => {
-  testimonialCarousel.scrollBy({ left: 500, behavior: 'smooth' });
+testimonialRightArrow.addEventListener("click", () => {
+  testimonialCarousel.scrollBy({ left: 500, behavior: "smooth" });
 });
