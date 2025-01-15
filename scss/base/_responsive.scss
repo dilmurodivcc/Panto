@@ -296,6 +296,10 @@
       width: 250px !important;
     }
   }
+  .about{
+    gap: 0px !important;
+    padding: 100px 0 !important ;
+  }
   .second .container {
     padding-left: 30px;
     flex-wrap: wrap;
@@ -320,16 +324,16 @@
   .about .content.second {
     margin-top: 0px !important;
   }
-  .about .line {
-    flex-direction: column;
-  }
-  .emty {
-    width: 50% !important;
-    height: 300px !important;
-  }
+
 }
 
 @media screen and (max-width: 680px) {
+  h1{
+    font-size: 40px !important;
+  }
+  h4{
+    font-size: 16px !important;
+  }
   header{
     nav{
       display: none;
